@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1{
+    height: 50px;
+    width: 128px;
+    background: url(logo.jpeg) no-repeat center center/cover;
+}
+.border:hover{
+    border: solid 1.7px white;
+}
+.box{
+    display: flex;
+    gap: 5px;
+}
+.box p{
+    height: 16px;
+    color: #fff;
+    font-weight: bolder;
+}
+.para1{
+    height: 14px;
+    color: #ccc; 
+    margin: 4px;
+}
+.box3{
+    display: flex;
+    width: 600px;
+    height: 40px;
+}
+.s1{
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    background-color: hsla(0, 0%, 50%, 0.964);
+    font-weight: bold;
+    font-size: large;
+}
+.s2{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.s3{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: orange;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.box4{
+    display: flex;
+    gap: 5px;
+    height: 19px;
+}
+.box4 img{
+    width: 21.6px;
+}
+.box4 p{
+    width: 18px;
+    border: none;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prime2{
+   font-weight: bolder;
+   font-size: 1rem;
+}
+.box6{
+    display: flex;
+}
+.ar1{
+    font-size: 2.5rem;
+}
+.box6 p{
+    font-size: 1.3rem;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.panel{
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0px 12px;
+}
+.p1{
+    display: flex;
+    width: 60px;
+    font-size: 20px;
+}
+.p2{
+    display: flex;
+    width: 80%;
+}
+.p2 li{
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 24px;
+}
+.p3{
+  width: 400px; 
+  font-size: 1.2rem;
+  font-weight: bolder; 
+}
+.main{
+    background: url(new.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+.area{
+    display: flex;
+    justify-content: center;
+}
+.area p{
+    display: inline;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30%;
+}
+.item{
+    display: flex;
+    background-color: papayawhip;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boxes{
+    height: 350px;
+    background-color: white;
+    width: 23%;
+    margin: 7px;
+}
+.boxes img{
+    height: 270px;
+    width: 100%;
+}
+.box_content{
+    padding: 20px;
+}
+.box_content p{
+    font-size: 1.3rem;
+    color: #020226;
+    font-weight: bolder;
+}
+.sign{
+    margin-top: 40px;
+    height: 150px;
+}
+.sign_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: gray solid 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sign_content button{
+    font-weight: bolder;
+    font-size: 1rem;
+    width: 230px;
+    height: 28px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    border: none;
+}
+.sign_content p{
+    font-size: 1rem;
+}
+.f1{
+    font-size: 1.2rem;
+    height: 49px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+}
+.f2{
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 350px;
+    border-bottom: grey 2px solid;
+}
+.f2 ul{
+    margin-top: 80px;
+}
+.f2 ul li{
+    list-style: none;
+    padding: 3px 0px;
+}
+.f3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #222f3d;
+    gap: 30px;
+}
+.f3 img{
+    height: 50px;
+}
+.f3 select{
+    height: 34px;
+    width: 115px;
+    text-align: center;
+    font-size: 15px;
+}
+.f4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    background-color: rgba(0, 0, 0, 0.872);
+    color: white;
+}
+.f4 span{
+    margin-top: 40px;
+    margin-left: -25%;
+}
